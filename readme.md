@@ -3,7 +3,6 @@
 - Vite
 - React
 - Tailwind with postcss
-- VS Code autocomplete
 
 ## Running Commands
 
