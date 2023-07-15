@@ -5,12 +5,7 @@ export default function App() {
         <header className="w-full absolute">
           <div className="container mx-auto max-w-6xl md:w-[80%] py-2">
             <nav className="flex justify-between items-center">
-              <img
-                src="/src/assets/Logo.png"
-                alt="logo"
-                width={60}
-                height={60}
-              />
+              <img src="/Logo.png" alt="logo" width={60} height={60} />
               <div className="text-white font-bold underline italic flex gap-3">
                 <a href="#history">01. History</a>
                 <a href="#team">02. Team</a>
@@ -28,9 +23,9 @@ export default function App() {
       <section className="py-10 w-[80%] lg:w-full mx-auto" id="history">
         <nav className="flex justify-between items-center">
           <div className="flex gap-1 items-center">
-            <img src="/src/assets/Logo.png" alt="logo" width={60} height={60} />
+            <img src="/Logo.png" alt="logo" width={60} height={60} />
             <img
-              src="/src/assets/Logo2.png"
+              src="/Logo2.png"
               alt="logo"
               width={150}
               height={31}
@@ -39,8 +34,8 @@ export default function App() {
           </div>
 
           <div className="text-black font-bold underline italic flex gap-3">
-            <a href="/">01. History</a>
-            <a href="/">02. Team</a>
+            <a href="#history">01. History</a>
+            <a href="#team">02. Team</a>
           </div>
         </nav>
       </section>
@@ -66,26 +61,10 @@ export default function App() {
           <div className="text-white text-4xl bg-[#414f6b] opacity-60">
             <div className="container mx-auto max-w-4xl">
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 py-3 grid-flow-col w-full">
-                <img
-                  src="/src/assets/slide1.png"
-                  alt="slide1"
-                  className="w-auto h-auto"
-                />
-                <img
-                  src="/src/assets/slide2.png"
-                  alt="slide2"
-                  className="w-auto h-auto"
-                />
-                <img
-                  src="/src/assets/slide3.png"
-                  alt="slide3"
-                  className="w-auto h-auto"
-                />
-                <img
-                  src="/src/assets/slide4.png"
-                  alt="slide4"
-                  className="w-auto h-auto"
-                />
+                <img src="/slide1.png" alt="slide1" className="w-auto h-auto" />
+                <img src="/slide2.png" alt="slide2" className="w-auto h-auto" />
+                <img src="/slide3.png" alt="slide3" className="w-auto h-auto" />
+                <img src="/slide4.png" alt="slide4" className="w-auto h-auto" />
               </div>
               <div className="flex justify-center items-center pb-2">
                 <span className="cursor-pointer h-[9px] w-[9px] rounded-full bg-[#A8A8A8] hover:bg-white mx-[3px] transition duration-300"></span>
@@ -97,7 +76,7 @@ export default function App() {
         </div>
 
         <img
-          src="/src/assets/background2.png"
+          src="/background2.png"
           alt="background2"
           className="w-full h-screen absolute object-cover"
         />
@@ -164,14 +143,9 @@ export default function App() {
 
           <footer className="w-full bg-[#313D59] flex justify-between px-32 items-center py-2">
             <div className="hidden md:flex md:gap-1 lg:flex lg:gap-1 items-center">
+              <img src="/Logo.png" alt="logo" width={60} height={60} />
               <img
-                src="/src/assets/Logo.png"
-                alt="logo"
-                width={60}
-                height={60}
-              />
-              <img
-                src="/src/assets/Logo3.png"
+                src="/Logo3.png"
                 alt="logo"
                 width={150}
                 height={31}
@@ -184,7 +158,7 @@ export default function App() {
           </footer>
         </div>
         <img
-          src="/src/assets/background3.png"
+          src="/background3.png"
           alt="background3"
           className="w-full h-screen absolute object-cover"
         />
