@@ -19,7 +19,7 @@ export default function App() {
           </div>
         </header>
         <img
-          src="/src/assets/background.png"
+          src="/background.png"
           alt="section1_img"
           className="w-[1920] h-auto"
         />
